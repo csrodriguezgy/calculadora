@@ -1,10 +1,6 @@
-def factorial(n):
-    if n < 0:
-        return "Error: factorial de número negativo"
-    if n == 0 or n == 1:
-        return 1
-    fact = 1
-    for i in range(2, n+1):
-        fact *= i
-    return fact
+def cm_a_pulgadas(cm):
+    return cm / 2.54
+
+def celsius_a_fahrenheit(c):
+    return (c * 9/5) + 32
 
